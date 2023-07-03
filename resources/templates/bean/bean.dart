@@ -1,0 +1,4 @@
+
+class $nameBean{
+    $nameBean();
+}

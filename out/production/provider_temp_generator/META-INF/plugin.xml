@@ -1,0 +1,47 @@
+<idea-plugin>
+  <id>com.example.provider_temp_generator</id>
+  <name>Provider Generator</name>
+  <version>1.0</version>
+  <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
+  <vendor email="511928426@qq.com" url="https://github.com/km511928426">cheng</vendor>
+
+  <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
+       Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
+       Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
+  <description><![CDATA[
+    <h2>Used to generate the template code of provider framework</h2>
+    <ul>
+        <li>Right-click the File: New -> Provider Generator </li>
+        <li>GitHub：<a href="https://github.com/km511928426">provider_temp_generator</a></li>
+
+        <h3>Provider Use Article</h3>
+    </ul>
+  ]]></description>
+
+<!--  <change-notes><![CDATA[-->
+<!--      Add change notes here.<br>-->
+<!--      <em>most HTML tags may be used</em>-->
+<!--    ]]>-->
+<!--  </change-notes>-->
+
+  <!-- please see https://plugins.jetbrains.com/docs/intellij/build-number-ranges.html for description -->
+  <idea-version since-build="173.0"/>
+
+  <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
+       on how to target different products -->
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+    <action id="com.example.provider_temp_generator" class="NewProvider" text="Provider Generator"
+            description="ProviderBaseTools generator" icon="/image/icon.png">
+      <add-to-group group-id="NewGroup" anchor="first"/>
+      <keyboard-shortcut keymap="$default" first-keystroke="shift alt A"/>
+    </action>
+  </actions>
+
+</idea-plugin>
