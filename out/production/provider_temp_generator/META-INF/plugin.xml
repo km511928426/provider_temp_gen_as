@@ -1,6 +1,6 @@
 <idea-plugin>
   <id>com.example.provider_temp_generator</id>
-  <name>Provider Generator</name>
+  <name>Provider Temp Genrator</name>
   <version>1.0</version>
   <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
   <vendor email="511928426@qq.com" url="https://github.com/km511928426">cheng</vendor>
@@ -30,6 +30,8 @@
   <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
        on how to target different products -->
   <depends>com.intellij.modules.platform</depends>
+
+  <depends>com.intellij.modules.lang</depends>
 
   <extensions defaultExtensionNs="com.intellij">
     <!-- Add your extensions here -->
