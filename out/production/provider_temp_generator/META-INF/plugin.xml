@@ -18,11 +18,11 @@
     </ul>
   ]]></description>
 
-<!--  <change-notes><![CDATA[-->
-<!--      Add change notes here.<br>-->
-<!--      <em>most HTML tags may be used</em>-->
-<!--    ]]>-->
-<!--  </change-notes>-->
+  <change-notes><![CDATA[
+      <li>1.1 : Modify the refresh function to remove outdated APIs</li>
+      <li>1.0 : init</li>
+    ]]>
+  </change-notes>
 
   <!-- please see https://plugins.jetbrains.com/docs/intellij/build-number-ranges.html for description -->
   <idea-version since-build="173.0"/>
