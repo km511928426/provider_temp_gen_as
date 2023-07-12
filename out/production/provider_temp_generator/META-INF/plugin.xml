@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>com.example.provider_temp_generator</id>
   <name>Provider Temp Generator</name>
-  <version>1.1</version>
+  <version>1.2</version>
   <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
   <vendor email="511928426@qq.com" url="https://github.com/km511928426">cheng</vendor>
 
@@ -12,13 +12,14 @@
     <h2>Used to generate the template code of provider framework</h2>
     <ul>
         <li>Right-click the File: New -> Provider Generator </li>
-        <li>GitHub：<a href="https://github.com/km511928426">provider_temp_generator</a></li>
+<!--        <li>GitHub：<a href="https://github.com/km511928426">provider_temp_generator</a></li>-->
 
         <h3>Provider Use Article</h3>
     </ul>
   ]]></description>
 
   <change-notes><![CDATA[
+      <li>1.1 : Add a provider template</li>
       <li>1.1 : Modify the refresh function to remove outdated APIs</li>
       <li>1.0 : init</li>
     ]]>
