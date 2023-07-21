@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>com.example.provider_temp_generator</id>
   <name>Provider Temp Generator</name>
-  <version>1.2</version>
+  <version>1.4</version>
   <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
   <vendor email="511928426@qq.com" url="https://github.com/km511928426">cheng</vendor>
 
@@ -19,7 +19,8 @@
   ]]></description>
 
   <change-notes><![CDATA[
-      <li>1.1 : Add a provider template</li>
+      <li>1.3 : Modify the Naming convention and delete the get set method </li>
+      <li>1.2 : Add a provider template</li>
       <li>1.1 : Modify the refresh function to remove outdated APIs</li>
       <li>1.0 : init</li>
     ]]>

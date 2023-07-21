@@ -15,7 +15,7 @@ class _$namePageState extends State<$namePage> {
   Widget build(BuildContext context) {
     return ChangeNotifierProvider<$nameModel>.value(
       value: $nameModel(),
-      child: widget.getChildView(context),
+      builder: (context, child) => widget.getChildView(context),
     );
   }
 }

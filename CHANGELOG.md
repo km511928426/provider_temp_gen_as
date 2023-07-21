@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.4] - 2023-07-21
+
+- The subset of the repair template is not a builder
+
 ## [1.3] - 2023-07-11
 
 - Modify the Naming convention and delete the get set method

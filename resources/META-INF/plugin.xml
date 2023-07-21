@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>com.example.provider_temp_generator</id>
   <name>Provider Temp Generator</name>
-  <version>1.3</version>
+  <version>1.4</version>
   <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
   <vendor email="511928426@qq.com" url="https://github.com/km511928426">cheng</vendor>
 

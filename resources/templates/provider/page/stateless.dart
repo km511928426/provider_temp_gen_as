@@ -10,7 +10,7 @@ class $namePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return ChangeNotifierProvider<$nameModel>.value(
         value: $nameModel(),
-        child: getChildView(context),
+        builder: (context, child) => getChildView(context),
     );
   }
 }
