@@ -1,10 +1,7 @@
 # Change Log
 
-## [1.6] - 2023-11-22
 
-- Update Package
-
-## [1.5] - 2023-11-22
+## [1.7] - 2023-11-22
 
 - Modify read to watch for real-time monitoring in the widget
 
