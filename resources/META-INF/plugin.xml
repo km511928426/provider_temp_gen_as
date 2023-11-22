@@ -1,5 +1,5 @@
 <idea-plugin>
-  <id>com.example.provider_temp_generator</id>
+  <id>com.provider.provider_temp_generator</id>
   <name>Provider Temp Generator</name>
   <version>1.5</version>
   <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
