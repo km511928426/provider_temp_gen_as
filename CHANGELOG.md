@@ -1,5 +1,9 @@
 # Change Log
 
+## [1.5] - 2023-11-22
+
+- Modify read to watch for real-time monitoring in the widget
+
 ## [1.4] - 2023-07-21
 
 - The subset of the repair template is not a builder
